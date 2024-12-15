@@ -9,6 +9,7 @@ class Article:
         self._magazine_id = magazine_id
 
     @property
+    # setter
     def id(self):
         return self._id
 
